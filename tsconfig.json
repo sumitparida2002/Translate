@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "outDir": "out",
+      "module": "commonjs",
+      "target": "es6",
+      "moduleResolution": "node",
+      "allowJs": false,
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true, 
+      "watch":true ,
+      "lib": ["es2018", "dom"],
+
+    },
+    "exclude": [
+      "node_modules", 
+      "**/*.spec.ts", 
+      "out/**"
+    ],
+    "include": ["**/*.ts"],
+    "files": [
+      "scripts.ts"
+    ]
+  }
